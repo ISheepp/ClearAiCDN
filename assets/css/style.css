@@ -1274,7 +1274,7 @@ p {
           padding: 30px 30px 30px 120px; } }
       /*修改特性尖头小三角不显示*/
       .features-area .features-btn .tab-content .tab-pane::before {
-        position: fixed;
+        position: static;
         content: '';
         left: 70px;
         top: -13px;
