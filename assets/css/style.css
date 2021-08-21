@@ -30,7 +30,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-    1. COMMON css 
+    1. COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400&display=swap");
 body {
@@ -249,7 +249,7 @@ p {
     -webkit-transform: translateY(0);
     transform: translateY(0); } }
 /*===========================
-    2.HEADER css 
+    2.HEADER css
 ===========================*/
 .header-nav {
   position: absolute;
@@ -871,7 +871,7 @@ p {
     width: 45px;
     height: 45px; } }
 /*===========================
-    3.BANNER css 
+    3.BANNER css
 ===========================*/
 .banner-area {
   position: relative;
@@ -1170,7 +1170,7 @@ p {
     -webkit-transform: translateY(-30px);
     transform: translateY(-30px); } }
 /*===========================
-    4.FEATURES css 
+    4.FEATURES css
 ===========================*/
 .features-area {
   position: relative;
@@ -1272,8 +1272,9 @@ p {
       @media only screen and (min-width: 576px) and (max-width: 767px) {
         .features-area .features-btn .tab-content .tab-pane {
           padding: 30px 30px 30px 120px; } }
+      /*修改特性尖头小三角不显示*/
       .features-area .features-btn .tab-content .tab-pane::before {
-        position: absolute;
+        position: fixed;
         content: '';
         left: 70px;
         top: -13px;
@@ -1342,7 +1343,7 @@ p {
         color: #5a84fa; }
 
 /*===========================
-    5.ABOUT css 
+    5.ABOUT css
 ===========================*/
 .about-area {
   position: relative;
@@ -1497,7 +1498,7 @@ p {
         opacity: .6; }
 
 /*===========================
-    6.BUSINESS css 
+    6.BUSINESS css
 ===========================*/
 .business-area {
   position: relative;
@@ -1588,7 +1589,7 @@ p {
           width: 58%; } }
 
 /*===========================
-    7.CUSTOMERS css 
+    7.CUSTOMERS css
 ===========================*/
 .customers-area {
   background: #f2f4f8;
@@ -1704,7 +1705,7 @@ p {
       content: '02'; }
 
 /*===========================
-    8.VIDEO PLAY css 
+    8.VIDEO PLAY css
 ===========================*/
 .video-play-area {
   display: inline-block;
@@ -1814,7 +1815,7 @@ p {
     transform: scale(1.5);
     opacity: 0; } }
 /*===========================
-    9.PRICING css 
+    9.PRICING css
 ===========================*/
 .pricing-one {
   position: relative;
@@ -2071,7 +2072,7 @@ p {
   background-color: rgba(252, 252, 252, 0.05); }
 
 /*===========================
-    10.TESTIMONIALS css 
+    10.TESTIMONIALS css
 ===========================*/
 .testimonials-area {
   position: relative;
@@ -2294,7 +2295,7 @@ p {
   100% {
     transform: rotate(0deg); } }
 /*===========================
-    11.SEREENSHOT css 
+    11.SEREENSHOT css
 ===========================*/
 .screenshot-area {
   padding-bottom: 181px; }
@@ -2399,7 +2400,7 @@ p {
         width: 9px; }
 
 /*===========================
-    12.FAQ css 
+    12.FAQ css
 ===========================*/
 .faq-area {
   position: relative; }
@@ -2588,7 +2589,7 @@ p {
       font-weight: 300; }
 
 /*===========================
-    13.COUNTER css 
+    13.COUNTER css
 ===========================*/
 .counter-area .counter-item {
   border-radius: 8px;
@@ -2634,7 +2635,7 @@ p {
   display: none; }
 
 /*===========================
-    14.BLOG css 
+    14.BLOG css
 ===========================*/
 .blog-area {
   position: relative;
@@ -3250,7 +3251,7 @@ p {
   transition: all .4s ease; }
 
 /*===========================
-    15.FOOTER css 
+    15.FOOTER css
 ===========================*/
 .footer-area {
   background: #252c41;
